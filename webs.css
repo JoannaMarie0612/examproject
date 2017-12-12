@@ -1,0 +1,1044 @@
+@font-face {
+    font-family: Raleway;
+    src: url('ralemedium.ttf');
+}
+
+@font-face {
+    font-family: Raleway1;
+    src: url('raleregular.ttf');
+}
+
+@font-face {
+    font-family: Avenir;
+    src: url('avenir.ttf');
+}
+
+@font-face {
+    font-family: Avenir1;
+    src: url('avenirlight.ttf');
+}
+
+@font-face {
+    font-family: Corm;
+    src: url('cormed.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+body {
+    position: 100%;
+    background-color: #fff;
+    font-family: Avenir;
+
+}
+
+.arrow{
+    position: absolute;
+    margin-top: -10%;
+    width: 5%;
+    align-content: center;
+    margin-left: 50%;
+    z-index: 10;
+}
+
+footer {
+    position: 100%;
+    background-color: #fff;
+    height: 40%;
+}
+
+/* Video in the header */
+
+video {
+
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+}
+
+#myAudio {
+    display: none;
+}
+
+
+.welcome {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 9;
+    color: white;
+    top: 40%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
+
+audio {
+    width: 480px;
+    height: 75px;
+    margin: 50px auto auto auto;
+    border: solid;
+    text-align: center;
+    background-color: rgba(23, 45, 159, 0.5);
+    display: block;
+}
+
+article {
+    width: 100%;
+    color: #fff;
+    padding-top: 1%;
+    text-align: left;
+    font-size: 15px;
+    display: block;
+    padding: 6em 2em 5em 2em;
+}
+
+.together {
+    text-align: left;
+}
+
+margin-left: 5%;
+p a {
+    color: #223141;
+    text-decoration: none;
+
+}
+
+
+
+body {
+    -webkit-animation: fadein 2s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 2s;
+    /* Internet Explorer */
+    -o-animation: fadein 2s;
+    /* Opera < 12.1 */
+    animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Firefox < 16 */
+
+@-moz-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Internet Explorer */
+
+@-ms-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Opera < 12.1 */
+
+@-o-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+.social {
+    color: aliceblue;
+    float: right;
+}
+
+*,
+:after,
+:before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+    display: table;
+
+}
+
+
+.scroll-down {
+    opacity: 1;
+    -webkit-transition: all .5s ease-in 3s;
+    transition: all .5s ease-in 3s;
+}
+
+.scroll-down {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -16px;
+    display: block;
+    width: 32px;
+    height: 32px;
+    border: 2px solid #FFF;
+    background-size: 14px auto;
+    border-radius: 50%;
+    z-index: 2;
+    -webkit-animation: bounce 2s infinite 2s;
+    animation: bounce 2s infinite 2s;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+.scroll-down:before {
+    position: absolute;
+    top: calc(50% - 8px);
+    left: calc(50% - 6px);
+    transform: rotate(-45deg);
+    display: block;
+    width: 12px;
+    height: 12px;
+    content: "";
+    border: 2px solid white;
+    border-width: 0px 0 2px 2px;
+}
+
+@keyframes bounce {
+    0%,
+    100%,
+    20%,
+    50%,
+    80% {
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -webkit-transform: translateY(-10px);
+        -ms-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+    60% {
+        -webkit-transform: translateY(-5px);
+        -ms-transform: translateY(-5px);
+        transform: translateY(-5px);
+    }
+
+
+}
+
+
+
+
+
+
+
+/* DESKTOP */
+
+@media (min-width: 600px) {
+
+    .copyright {
+        width: 100%;
+        text-align: center;
+        font-size: 10px;
+        margin-top: 10%;
+    }
+
+
+
+    ul a {
+        padding: 20px;
+        font-size: 60px;
+        width: 50%;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+        display: inline;
+    }
+
+    h1 {
+        color: #213F60;
+        padding-top: 20%;
+        text-align: center;
+        font-size: 50px;
+    }
+
+    h2 {
+        color: #496A8E;
+        text-align: center;
+        font-size: 14px;
+        display: inline;
+        font-family: Corm;
+        letter-spacing: 3px;
+
+    }
+
+    h3 {
+        color: #F4E8DF;
+        text-align: center;
+        font-size: 20px;
+        padding-top: 7%;
+        padding-bottom: 4%;
+        letter-spacing: 2px;
+    }
+
+
+
+    a i {
+        padding: 0.5em;
+        text-align: center;
+        box-shadow: 5px 5px 15px #02192D;
+    }
+
+
+    a i:hover {
+        opacity: 0.5;
+        transition: all 0.8s ease;
+    }
+
+    #tagmenu {
+        margin-top: 10%;
+    }
+
+    #bio {
+        color: #A3B6C4;
+        padding-top: 2em;
+        text-align: center;
+        text-align: center;
+        align-content: center;
+        margin-top: 15%;
+        color: #fff;
+        padding: 1em;
+        text-align: center;
+        width: 80%;
+        height: 160vh;
+        text-align: left;
+        align-content: center;
+        margin-top: 6%;
+        background-color: rgba(2, 25, 45, 0.9);
+        margin-left: 10%;
+        margin-bottom: 10%;
+    }
+
+    #bio p {
+        color: #fff;
+        text-align: center;
+        width: 90%;
+        height: 100%;
+        text-align: left;
+        align-content: center;
+        margin-left: 5%;
+        font-family: Avenir;
+    }
+
+
+
+    #contact {
+        color: #A3B6C4;
+        padding-top: 2em;
+        text-align: center;
+        text-align: center;
+        align-content: center;
+        margin-top: 15%;
+        color: #fff;
+        padding: 5em;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        text-align: left;
+        align-content: center;
+        margin-top: 6%;
+        background-color: rgba(2, 25, 45, 0.9);
+        margin-left: 10%;
+        margin-bottom: 10%;
+
+    }
+
+    #music {
+        color: #A3B6C4;
+        padding-top: 2em;
+        text-align: center;
+        text-align: center;
+        align-content: center;
+        margin-top: 15%;
+        color: #fff;
+        padding: 5em;
+        text-align: center;
+        width: 80%;
+        height: 250vh;
+        text-align: left;
+        align-content: center;
+        margin-top: 6%;
+        background-color: rgba(2, 25, 45, 0.9);
+        margin-left: 10%;
+        margin-bottom: 10%;
+
+    }
+
+
+    .border {
+        background-color: rgba(34, 49, 65, 0.6);
+        height: 55px;
+        overflow: hidden;
+        width: 100%;
+        border-radius: 2px;
+        padding-left: 55%;
+        border-bottom: 1 solid rgba(0, 0, 0, .7);
+        box-shadow: 20px 20px solid black;
+    }
+
+
+    /* The side navigation menu */
+    .sidenav {
+        background-color: rgba(10, 27, 44, .9);
+        height: 12%;
+        overflow: hidden;
+        width: 100%;
+        padding-left: 50%;
+        position: fixed;
+        z-index: 3;
+
+    }
+
+    .sidenav a {
+        margin-left: 5%;
+        padding: 1.5em 1em;
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-decoration: none;
+        font-size: 16px;
+        position: relative;
+        font-family: Corm;
+        letter-spacing: 3px;
+
+
+    }
+
+    .sidenav a:hover {
+        color: #879AAB;
+        transition: all 0.5s ease-in;
+        overflow: hidden;
+        display: block;
+
+    }
+    .sidenav .closebtn {
+        display: none;
+    }
+
+    /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%
+    }
+
+    /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+    .sticky + .content {
+        padding-top: 60px;
+    }
+    /*logo*/
+    img.sticky {
+        position: fixed;
+        top: 107;
+        float: left;
+        width: 200px;
+        margin-top: -7%;
+        z-index: 9999;
+    }
+
+    img.home {
+        width: 45%;
+        margin-top: -5%;
+        z-index: 1;
+    }
+
+
+    img.music:hover {
+        opacity: 0.5;
+    }
+
+    .jonas {
+        width: 55%;
+        padding: 1em;
+
+    }
+    .info {
+        text-align: center;
+        font-size: 12px;
+        z-index: -1;
+
+
+    }
+
+    .info1 {
+        margin-top: -27%;
+        text-align: center;
+        font-size: 12px;
+        z-index: -1;
+        color: #0C2335;
+
+    }
+
+    iframe {
+        margin-top: -1400px;
+        margin-right: 15%;
+        float: right;
+        box-shadow: 5px 5px 15px #02192D;
+        width: 20%;
+        height: 50%;
+    }
+
+    .professor {
+        margin-top: -950px;
+        margin-right: 15%;
+        float: right;
+        box-shadow: 5px 5px 15px #02192D;
+        width: 20%;
+        height: 50%;
+    }
+
+    .boardingpass {
+        margin-top: -1000px;
+        margin-right: 300px;
+        width: 40%;
+    }
+
+    .letter {
+        float: right;
+        margin-top: -20%;
+
+    }
+
+    ----------------------------------------------------------------
+    form {
+    width: 100%;
+    }
+
+    .together {
+        margin-left: 8%;
+
+    }
+
+    img.music {
+        box-shadow: 5px 5px 15px #02192D;
+    }
+    main {
+
+        padding-top: 50%;
+        background-color: rgba(214, 202, 177, 0.3);
+        font-family: Avenir;
+    }
+
+    .intro {
+        margin-top: -570px;
+        margin-right: 10%;
+        width: 75%;
+        height: 40%;
+    }
+
+
+
+}
+
+
+
+/* MOBILE VERSION*/
+
+@media (max-width: 600px) {
+
+    img.sticky {
+        position: fixed;
+        top: 60;
+        float: left;
+        width: 150px;
+        height: 150px;
+        margin-top: -55px;
+        z-index: 9999;
+    }
+    img.music {
+        box-shadow: 5px 5px 15px #02192D;
+    }
+
+    img.music:hover {
+        opacity: 0.5;
+    }
+
+
+    /* Video in the header */
+    video {
+        width: 100%;
+        overflow: hidden;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -1;
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        background-size: cover;
+    }
+
+    article {
+        width: 100%;
+        color: #fff;
+        padding-top: 1%;
+        text-align: left;
+        font-size: 15px;
+        display: block;
+        padding: 6em 2em 5em 2em;
+        display: block;
+    }
+    .together {
+        text-align: left;
+    }
+
+    .welcome {
+
+        text-align: center;
+        width: 100%;
+        z-index: 9;
+        color: white;
+        top: 20%;
+        left: 55%;
+        transform: translate(-50%, -50%);
+    }
+    h1 {
+        color: #213F60;
+        text-align: center;
+        font-size: 25px;
+        width: 100%;
+    }
+
+    h2 {
+        color: #496A8E;
+        text-align: center;
+        margin-top: 2%;
+        font-size: 12px;
+        display: inline;
+        font-family: Corm;
+        letter-spacing: 3px;
+
+    }
+
+
+    /*logo*/
+    img.sticky {
+        float: right;
+        width: 150px;
+        height: 7%;
+        z-index: 17;
+        left: 20px;
+    }
+
+
+
+
+    /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+    .sticky + .content {
+        padding-top: 60px;
+    }
+
+
+    /* The side navigation menu */
+    .sidenav {
+        height: 100%;
+        /* 100% Full-height */
+        width: 0;
+        /* 0 width - change this with JavaScript */
+        position: fixed;
+        /* Stay in place */
+        z-index: 9999;
+        /* Stay on top */
+        top: 0;
+        left: 0;
+        background-color: #000114;
+        /* Black*/
+        overflow-x: hidden;
+        /* Disable horizontal scroll */
+        padding-top: 60px;
+        /* Place content 60px from the top */
+        transition: 0.5s;
+        /* 0.5 second transition effect to slide in the sidenav */
+    }
+
+    /* The navigation menu links */
+    .sidenav a {
+        padding: 8px;
+        text-decoration: none;
+        font-size: 18px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+        font-family: Corm;
+        letter-spacing: 3px;
+
+
+
+    }
+
+    /* When you mouse over the navigation links, change their color */
+    .sidenav a:hover,
+    .offcanvas a:focus {
+        color: #f1f1f1;
+    }
+
+    /* Position and style the close button (top right corner) */
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
+    /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+    body {
+        transition: background-color .5s;
+
+    }
+
+    label[for="nav-trigger"] {
+        /* critical positioning styles */
+        position: fixed;
+        right: 25px;
+        top: 15px;
+        z-index: 9999;
+        background-image: url(burger.png);
+        /* non-critical apperance styles */
+        height: 28px;
+        width: 30px;
+        cursor: pointer;
+        background-size: contain;
+    }
+
+    /* Nav Trigger */
+    .nav-trigger {
+        /* critical styles - hide the checkbox input */
+        position: absolute;
+        clip: rect(0, 0, 0, 0);
+    }
+
+    .nav {
+        padding: 1em;
+        background-color: rgba(10, 27, 44, .9);
+    }
+
+    main {
+        margin-top: 130%;
+        padding: 1em;
+        padding-top: 20%;
+        background-color: rgba(2, 25, 45, 0.4);
+        font-family: Avenir;
+    }
+
+    h3 {
+        color: #fff;
+        text-align: center;
+        font-size: 17px;
+        padding-top: 5%;
+
+    }
+
+
+    .info {
+        margin-top: -2%;
+        text-align: center;
+    }
+
+    .jonas {
+        width: 50%;
+        padding: 5px;
+        border-radius: 5px;
+
+    }
+
+    #bio {
+        color: #A3B6C4;
+        padding-top: 2em;
+        text-align: center;
+        width: 100%;
+        text-align: center;
+        align-content: center;
+        margin-top: 1%;
+        box-shadow: 5px 5px 15px #02192D;
+        background-color: rgba(2, 25, 45, 0.9);
+        height: 150%;
+
+
+    }
+
+    #bio p {
+        color: #A3B6C4;
+        padding: 1em;
+        text-align: left;
+        width: 100%;
+        height: 120%;
+        align-content: center;
+        margin-top: 4%;
+        font-family: Avenir;
+
+    }
+
+
+    iframe {
+        margin-top: -1300px;
+        box-shadow: 5px 5px 15px #02192D;
+        width: 100%;
+        padding: 5px;
+    }
+
+    .professor {
+        margin-top: -550px;
+        box-shadow: 5px 5px 15px #02192D;
+        width: 100%;
+        height: 50%;
+        padding: 5px;
+    }
+
+    .boardingpass {
+        margin-top: -950px;
+        padding: 5px;
+    }
+
+
+    }
+
+    #music {
+        padding-top: 1em;
+        text-align: center;
+        width: 100%;
+        height: 250vh;
+        text-align: center;
+        align-content: center;
+        margin-top: 15%;
+        color: #fff;
+        padding: 1em;
+        text-align: center;
+        box-shadow: 5px 5px 15px #02192D;
+        background-color: rgba(2, 25, 45, 0.9);
+        font-family: Avenir;
+        margin-bottom: 20%;
+
+
+    }
+
+    a i:hover {
+        opacity: 0.5;
+        transition: all 0.8s ease;
+    }
+
+    a i {
+        margin-top: 15%;
+        padding: 0.5em;
+        text-align: center;
+        box-shadow: 5px 5px 15px #02192D;
+    }
+
+    img.home {
+        width: 70%;
+        margin-top: 20%;
+    }
+
+ #contact {
+        padding-top: 1em;
+        text-align: center;
+        width: 100%;
+        height: 250vh;
+        text-align: center;
+        align-content: center;
+        margin-top: 15%;
+        color: #fff;
+        padding: 1em;
+        text-align: center;
+        box-shadow: 5px 5px 15px #02192D;
+        background-color: rgba(2, 25, 45, 0.9);
+        font-family: Avenir;
+        margin-bottom: 20%;
+
+    }
+
+form {
+    width: 100%;
+    }
+
+
+
+
+
+
+
+  /* ---------------------------------- CONTACT FORM ------------------------------------------*/
+
+
+.jform{
+    float: left;
+    max-width: 500px;
+    background: none;
+    font: 20px "raleway";
+    color: #999;
+
+}
+.jform h3 {
+    font: 23px "raleway";
+    padding: 0px 0px 10px 40px;
+    display: block;
+    color: #C4C2C2;
+    padding-bottom: 30px;
+}
+
+.jform label {
+    display: block;
+    margin: 10px 0px 10px;
+
+}
+.jform label>span {
+    float: left;
+    width: 25% ;
+    text-align: right;
+    padding-right: 9px;
+    color:#C4C2C2;
+    font-size: 18px;
+}
+.jform input[type="text"], .jform input[type="email"], .jfrom textarea, .jform input[type="subject"]{
+
+    width: 70%;
+    padding: 3px 0px 3px 5px;
+    margin-top: 2px;
+    margin-right: 6px;
+    margin-bottom: 16px;
+    border-radius: 4px;
+    border: solid 1px #fff;
+    background: none;
+    height: 30px;
+    line-height:15px;
+    outline: 0;
+    color: white;
+
+}
+.jform textarea{
+    height:100px;
+    border: solid 1px #fff;
+    padding: 5px 0px 0px 5px;
+    border-radius: 4px;
+    width: 70%;
+    background: none;
+
+}
+.jform .button {
+
+    background-color: #C4C2C2;
+    border-radius:9px;
+    display:inline-block;
+    font-family:"Raleway";
+    color: #02192D;
+    font-size:17px;
+    font-weight:bold;
+    height: 35px;
+    line-height: 30px;
+    width:100px;
+    text-decoration:none;
+    text-align:center;
+
+}
+.jform .button:hover {
+
+   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+.jform .button:active {
+    position:relative;
+    top:1px;
+
+}
+.jform select {
+    background: url('down-arrow.png') no-repeat right, -moz-linear-gradient(top, #FBFBFB 0%, #E9E9E9 100%);
+    background: url('down-arrow.png') no-repeat right, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FBFBFB), color-stop(100%,#E9E9E9));
+   appearance:none;
+    -webkit-appearance:none;
+   -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    width: 70%;
+    line-height: 15px;
+    height: 30px;
+}
+
+.letter{
+    padding-top: 30%;
+    font-family: "Raleway";
+    font-size: 20px;
+    color: #C4C2C2;
+}
+
+.inf{
+    color: #ffff;
+    padding: 15px;
+}
+
+.social{
+    padding-top: 20px;
+    padding-right: 70px;
+}
+
+  /* ---------------------------------- END OF CONTACT FORM ------------------------------------------*/

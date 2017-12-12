@@ -1,0 +1,180 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonas gp</title>
+    <link rel="stylesheet" href="webs.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="webs.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+</head>
+
+<body>
+
+
+    <div class="nav"></div>
+    <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+        <a href="#">HOME </a>
+        <a href="#bio">BIO</a>
+        <a href="#music">MUSIC</a>
+        <a href="#contact">CONTACT</a>
+
+
+        <!-- Use any element to open the sidenav -->
+        <span onclick="openNav()"><label for="nav-trigger"></label></span>
+    </div>
+    <div class="nav">
+        <a href="#"><img class="sticky" src="images/logo-12.png" alt="Jonas logo"></a>
+    </div>
+
+
+    <header>
+
+
+        <div class="welcome">
+            <img class="home" src="images/logo-09.png" alt="Jonas logo">
+
+            <div class="info1">
+                <h2 class="artist">Artist ~ </h2>
+                <h2 class="composer">Composer ~</h2>
+                <h2 class="freelancer"> Freelancer</h2>
+            </div>
+        </div>
+        <video poster="rain.png" autoplay="true" loop>
+        <source src="images/rain.mp4" type="video/mp4">
+    </video>
+
+
+
+    </header>
+
+    <main>
+
+        <img class="arrow" src="images/arrow.png" alt="Jonas logo">
+
+        <section id="bio">
+
+            <h3>BIOGRAPHY</h3> <br>
+
+
+            <p> <img class="jonas" src="images/jon1.jpg" alt="Jonas gp" align="left"> Jonas is an original, unique artist who started playing on different kind of instruments at the age of 5 and has been following his passion since then. He never took music lessons as his passion motivated him enough to learn everything by himself. He puts more focus on composing music , but beside that he is extremely creative and has a natural talent in drawing, animating, acting, singing, writing. What is special about him is he naturally feels the art and it comes deeply from his heart. When people ask him why he is doing what he is doing he just simply says "I want to tell a story". He gives a meaning to his music and the audience might take that with themselves in a different way. They translate the music to their own language giving their own meaning to the song.
+            </p>
+
+            <iframe class="intro" width="560" height="315" src="https://www.youtube.com/embed/Au9acZdgC_s?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+
+        </section>
+
+
+        <section id="music">
+
+            <h3>MUSIC</h3>
+
+            <section id="list"> </section>
+            <template id="eventTemplate">
+        <article class="event">
+            <div class="together">
+
+            <img class="music" src="" alt="">
+
+            <h4></h4>
+            <div class="info">
+            <div class="date"></div>
+            <div class="time">  <span></span></div>
+            <div class="location"></div>
+            <audio></audio>
+            <p class="price"> <span></span> </p>
+
+                </div>
+         </div>
+            </article>
+        </template>
+
+        </section>
+
+
+        <iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/318197278&amp;color=%23084d54&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"></iframe>
+
+
+
+        <iframe class="professor" width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/393826964&amp;color=%23075d65&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"></iframe>
+
+
+<!--------------------------- CONTACT PAGE --------------------------->
+
+    <section id="contact">
+        <h3>CONTACT</h3> <br>
+
+
+
+        <form action="" method="post" class="jform">
+            <h3>Send direct e-mail to Jonas:
+            </h3>
+            <label>
+            <span>Name :</span>
+            <input id="name" type="text" name="name" placeholder="Your Full Name" />
+        </label>
+
+            <label>
+            <span>E-mail :</span>
+            <input id="email" type="email" name="email" placeholder="Email Address" />
+        </label>
+
+            <label>
+            <span>Subject :</span>
+            <input id="sub" type="subject" name="subject"/>
+        </label>
+            <label>
+            <span>Message :</span>
+            <textarea id="message" name="message" placeholder="Your Message to Jonas"></textarea>
+        </label>
+
+            <label>
+            <span>&nbsp;</span>
+            <input type="button" class="button" value="Send" />
+        </label>
+        </form>
+
+
+        <div class="letter">
+            <p> Email address:</p>
+            <p class="inf"> gustafsonmusik@gmail.com </p>
+            <p>Phone number:</p>
+            <p class="inf"> +45 42 34 75 55</p>
+        </div>
+
+
+        <div class="social">
+
+
+            <a href="#"><i class="fa fa-facebook" style="font-size:36px;color:#F9EDD7"></i></a>
+
+            <a href="https://www.youtube.com/user/Gustafsonmusik" class="social-icon"> <i class="fa fa-youtube" style="font-size:36px;color:#F9EDD7"></i></a>
+
+            <a href="#"><i class="fa fa-instagram" style="font-size:36px;color:#F9EDD7"></i></a>
+        </div>
+
+    </section>
+<!--------------------------- END OF CONTACT PAGE --------------------------->
+
+        <audio id="myAudio" controls autoplay loop>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="rai.mp3" type="audio/mpeg">
+</audio>
+
+        <button onclick="myFunction()">Stop audio</button>
+        <p id="demo"></p>
+
+        <p class="copyright"> Copyright © 2017 JonasGp</p>
+
+
+    </main>
+
+
+</body>
+
+</html>
